@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-size: 10px;
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1440px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+nav {
+  width: 100%;
+  background-color: #000;
+}
+nav .navbar-toggler {
+  outline: none;
+}
+nav .navbar-toggler.active, nav .navbar-toggler:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+nav .navbar-toggler span {
+  width: 30px;
+  outline: none;
+  height: 3px;
+  margin-bottom: 5px;
+  display: block;
+  background-color: white;
+}
+nav .nav-item .nav-link {
+  text-decoration: none;
+  color: #00D403;
+}
+nav .nav-item .nav-link.active {
+  color: #00D403;
+}
+nav .dropdown-menu {
+  background-color: #000;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 212, 3, 0.5);
+          box-shadow: 4px 4px 5px 0px rgba(0, 212, 3, 0.5);
+}
+nav .dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 2rem;
+}
+
+#menu-bar {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#menu-bar .menu-bar-links {
+  margin: 2rem 1rem;
+  font-size: 2.5rem;
+}
+#menu-bar .menu-bar-links .bar-link.active, #menu-bar .menu-bar-links .bar-link:hover {
+  color: #00D403;
+}
+#menu-bar .menu-bar-links .icon-stopwatch {
+  font-size: 3rem;
+  color: white;
+}
+#menu-bar .menu-bar-links .icon-stopwatch .icon-trophy-new1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.owl-bar .owl-theme .owl-dots {
+  position: absolute;
+  right: 50%;
+  bottom: 30px;
+  z-index: 150;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+.owl-bar .owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
+.owl-bar .owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: transparent;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  border: 2px solid #65BC46;
+  border-radius: 30px;
+}
+.owl-bar .owl-theme .owl-dots .owl-dot span.active {
+  background-color: black !important;
+}
+
+.menu-bar-one {
+  background-color: black;
+  padding: 4rem 0;
+}
+.menu-bar-one .menu-bar-one-listItem {
+  color: white;
+  text-align: center;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem 2rem;
+  text-transform: capitalize;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item.active,
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item hover {
+  color: #00D403;
+  border: 1px solid #00D403;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item .icon-calendar-solid-new {
+  font-size: 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #00D403;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item .icon-noun-live-new {
+  font-size: 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #00D403;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item .icon-calendar-days-solid-new-new {
+  font-size: 5rem;
+  border: 1px solid #00D403;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item .icon-person-running-solid-new {
+  font-size: 5rem;
+  border: 1px solid #00D403;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item .icon-trophy-new {
+  font-size: 5rem;
+  border: 1px solid #00D403;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item h5 {
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu-bar-one .menu-bar-one-listItem .menu-bar-one-item p {
+  background-color: #00D403;
+  border-radius: 2px;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .menu-bar-one .menu-bar-one-item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+    text-transform: capitalize;
+  }
+  .menu-bar-one .menu-bar-one-item .icon-calendar-solid-new {
+    font-size: 2rem;
+  }
+  .menu-bar-one .menu-bar-one-item .icon-noun-live-new {
+    font-size: 2rem;
+  }
+  .menu-bar-one .menu-bar-one-item .icon-calendar-days-solid-new-new {
+    font-size: 2rem;
+  }
+  .menu-bar-one .menu-bar-one-item .icon-person-running-solid-new {
+    font-size: 2rem;
+  }
+  .menu-bar-one .menu-bar-one-item .icon-trophy-new {
+    font-size: 2rem;
+  }
+  .menu-bar-one .menu-bar-one-item h5 {
+    font-size: 1.5rem;
+  }
+  .menu-bar-one p {
+    background-color: #00D403;
+    border-radius: 2px;
+  }
+}
+.menu-bar-slide {
+  border-top: 1px solid #00D403;
+  background-color: black;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.menu-bar-slide .owl-theme .owl-nav {
+  color: #65BC46;
+  font-size: 2.5rem;
+}
+.menu-bar-slide .owl-theme .menu-bar-slide-listItem .menu-bar-slide-item {
+  color: white;
+  font-size: 2.5rem;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+table {
+  background-color: black;
+}
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+table .leed-cell .dropdown-menu {
+  background-color: #000;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 212, 3, 0.5);
+          box-shadow: 4px 4px 5px 0px rgba(0, 212, 3, 0.5);
+}
+table .leed-cell .dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 2rem;
+}
+table .leed-cell .dropdown-menu .dropdown-toggle {
+  color: white;
+}
+table .leed-cell .icon-noun-live {
+  color: #00D403;
+  bottom: 5px;
+  left: 5px;
+  font-size: 3rem;
+  color: white;
+}
+table .big-cel img {
+  width: 2rem;
+  height: auto;
+}
+table .big-cel .icon-noun-live-new {
+  font-size: 2rem;
+  color: #00D403;
+}
+table p {
+  color: #00D403;
+}
+
+.footerlogo {
+  background-color: black;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?g71ais');
+  src:  url('icomoon.eot?g71ais#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?g71ais') format('truetype'),
+    url('icomoon.woff?g71ais') format('woff'),
+    url('icomoon.svg?g71ais#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar-days-solid-new-new:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-calendar-solid-new:before {
+  content: "\e901";
+}
+.icon-cherry-new:before {
+  content: "\e902";
+}
+.icon-clock-regular-new:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-fantasy-new:before {
+  content: "\e904";
+}
+.icon-futbol-solid-new:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-noun-live-new:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-number-gambling-new .path1:before {
+  content: "\e907";
+  color: none;
+}
+.icon-number-gambling-new .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(253, 254, 255);
+}
+.icon-number-gambling-new .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(251, 249, 251);
+}
+.icon-person-running-solid-new:before {
+  content: "\e90a";
+}
+.icon-plane-icon-new:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-stadion-new:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-ticket-new:before {
+  content: "\e90d";
+}
+.icon-ticket-solid-new:before {
+  content: "\e90e";
+}
+.icon-trophy-new:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-turnir-new:before {
+  content: "\e910";
+  color: #fbf9fb;
+}
+.icon-trophy-new1:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-sports_bar:before {
+  content: "\e917";
+}
+.icon-sports_baseball:before {
+  content: "\e918";
+}
+.icon-sports_kabaddi:before {
+  content: "\e919";
+}
+.icon-sports_handball:before {
+  content: "\e91a";
+}
+.icon-sports_tennis:before {
+  content: "\e91b";
+}
+.icon-sports_volleyball:before {
+  content: "\e91c";
+}
+.icon-sports_soccer:before {
+  content: "\e91d";
+}
+.icon-sports_rugby:before {
+  content: "\e91e";
+}
+.icon-sports_motorsports:before {
+  content: "\e91f";
+}
+.icon-sports_mma:before {
+  content: "\e920";
+}
+.icon-sports_hockey:before {
+  content: "\e921";
+}
+.icon-sports_golf:before {
+  content: "\e922";
+}
+.icon-sports_football:before {
+  content: "\e923";
+}
+.icon-sports_esports:before {
+  content: "\e924";
+}
+.icon-sports_cricket:before {
+  content: "\e925";
+}
+.icon-sports_basketball:before {
+  content: "\e926";
+}
+.icon-sports:before {
+  content: "\e927";
+}
+.icon-stopwatch:before {
+  content: "\e952";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}

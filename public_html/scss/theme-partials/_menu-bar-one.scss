@@ -1,0 +1,106 @@
+.menu-bar-one{
+    background-color: black;
+    padding: 4rem 0;
+    .menu-bar-one-listItem{
+        color: white;
+        text-align: center;
+        .menu-bar-one-item{
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            padding: 2rem 2rem;
+            text-transform: capitalize;
+             &.active,
+             hover{
+                    color:#00D403;
+                    border: 1px solid #00D403;
+                }
+            .icon-calendar-solid-new,
+            {
+                font-size: 6rem;
+                align-items: center;
+                border: 1px solid #00D403;
+                padding: 1rem;
+                border-radius: 5px;
+
+            }
+            .icon-noun-live-new{
+                font-size: 6rem;
+                align-items: center;
+                border: 1px solid #00D403;
+                padding: 1rem;
+                border-radius: 5px;
+            }
+            .icon-calendar-days-solid-new-new{
+                font-size: 5rem;
+                border: 1px solid #00D403;
+                padding: 1rem;
+                border-radius: 5px;
+            }
+            .icon-person-running-solid-new{
+                font-size: 5rem;
+                border: 1px solid #00D403;
+                padding: 1rem;
+                border-radius: 5px;
+            }
+            .icon-trophy-new{
+                font-size: 5rem;
+                border: 1px solid #00D403;
+                padding: 1rem;
+                border-radius: 5px;
+            }
+            h5{
+                font-size: 1.5rem;
+                align-items: center
+                
+                
+            }
+            p{
+                background-color: #00D403;
+                border-radius: 2px;
+                margin: 0;
+            }
+        }
+    }
+}
+@media (min-width: 992px)
+{
+    .menu-bar-one{
+        .menu-bar-one-item{
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+            padding: 2rem 2rem;
+            text-transform: capitalize;
+            .icon-calendar-solid-new,
+            {
+                font-size: 2rem;
+                
+            }
+            .icon-noun-live-new{
+                font-size: 2rem;
+            }
+            .icon-calendar-days-solid-new-new{
+                font-size: 2rem;
+            }
+            .icon-person-running-solid-new{
+                font-size: 2rem;
+            }
+            .icon-trophy-new{
+                font-size: 2rem;
+            }
+            h5{
+                font-size: 1.5rem;
+            }
+        }
+        p{
+            background-color: #00D403;
+
+            border-radius: 2px;
+        }
+
+    }
+}
+
+

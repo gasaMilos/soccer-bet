@@ -1,0 +1,32 @@
+#menu-bar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    .menu-bar-links{
+        
+        margin: 2rem 1rem; 
+        font-size: 2.5rem;
+        .bar-link{
+            &.active,
+                &:hover{
+                    color:#00D403;
+                }
+            }
+            .icon-stopwatch{
+                font-size: 3rem;
+                color: white;
+                
+             .icon-trophy-new1{
+                font-size: 4rem;
+                color: white;
+            }
+        }
+    }
+    
+    }  
+  
+    
+    
+    
+    
+

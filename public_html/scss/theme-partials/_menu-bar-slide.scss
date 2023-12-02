@@ -1,0 +1,25 @@
+.menu-bar-slide{
+    border-top: 1px solid #00D403;
+    background-color: black;
+    overflow-x: auto;
+    white-space: nowrap;
+    .owl-theme{
+        .owl-nav{
+            color: #65BC46;
+            font-size: 2.5rem;
+
+        }
+        .menu-bar-slide-listItem{
+            .menu-bar-slide-item{
+                color: white;
+                font-size: 2.5rem;
+                margin-right: 20px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+
+
+

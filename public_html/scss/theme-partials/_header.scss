@@ -1,0 +1,46 @@
+$nav-basgraund: $black;
+$white-text: $white;
+
+nav{
+    width: 100%;
+    background-color: $nav-basgraund;
+    .navbar-toggler {
+        outline: none;
+        &.active,
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        span{
+            width: 30px;
+            outline: none;
+            height: 3px;
+            margin-bottom: 5px;
+            display: block;
+            background-color: white;
+        }
+    }
+    .nav-item{
+
+        .nav-link{
+
+            text-decoration: none;
+            color: #00D403;
+            &.active{
+                color: #00D403;
+            }
+        }}
+
+    .dropdown-menu{
+        background-color: $black;
+        box-shadow: 4px 4px 5px 0px rgba(0, 212, 3, 0.50);
+
+        .dropdown-item{
+            color: white;
+            font-size: 2rem;
+        }
+
+    }
+}
+
+

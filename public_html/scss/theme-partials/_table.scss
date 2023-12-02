@@ -1,0 +1,47 @@
+
+
+table{
+    background-color: black;
+    td{
+        text-align: center;
+        vertical-align: middle;
+    }
+    .leed-cell{
+        .dropdown-menu{
+            background-color: $black;
+            box-shadow: 4px 4px 5px 0px rgba(0, 212, 3, 0.50);
+
+            .dropdown-item{
+                color: white;
+                font-size: 2rem;
+            }
+            .dropdown-toggle{
+
+                color: white;
+            }
+        }
+        .icon-noun-live{
+            color: #00D403;
+            bottom: 5px;
+            left: 5px;
+            font-size: 3rem;
+            color: white;
+        }
+    }
+    .big-cel{
+
+        img{
+            width: 2rem;
+            height: auto;
+        }
+        .icon-noun-live-new{
+            font-size: 2rem;
+            color: #00D403;
+        }
+    }
+    p{
+        color: #00D403;
+    }
+
+}
+
